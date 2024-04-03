@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: 2s;
 }
 
 .program img{
@@ -44,5 +45,25 @@
 .program:hover .caption{
     opacity: 1;
     padding-top: 0;
+
+}
+
+/* --- media query --- */
+
+@media (max-width: 650px) {
+
+    .programs{
+        flex-direction: column;
+    transition: 2s;
+   
+    }
+
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+        transition: 2s;
+
+    }
+
 
 }
