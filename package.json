@@ -1,7 +1,7 @@
 {
   "name": "edusity",
   "private": true,
-  "homepage": "https://github.com/techmino/edusity",
+  "homepage": "https://techmino.github.io/edusity/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
